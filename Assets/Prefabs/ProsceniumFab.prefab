@@ -102,18 +102,25 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -28.550945, y: -15.910627}
-  - {x: -23.968187, y: -15.524585}
-  - {x: -18.698591, y: -15.063283}
-  - {x: -13.731644, y: -14.371064}
+  - {x: -24.424799, y: -15.128856}
+  - {x: -23.537983, y: -15.037529}
+  - {x: -21.190607, y: -14.932175}
+  - {x: -19.124762, y: -14.819757}
+  - {x: -15.822369, y: -14.941229}
+  - {x: -14.601252, y: -14.836792}
+  - {x: -14.130731, y: -14.620559}
+  - {x: -13.296783, y: -13.984208}
   - {x: -8.322614, y: -12.525691}
   - {x: -4.9213905, y: -11.739656}
   - {x: -3.0653038, y: -10.901839}
   - {x: -1.314496, y: -10.937889}
-  - {x: 3.8820963, y: -9.1550865}
+  - {x: 3.850957, y: -9.030522}
   - {x: 6.3032312, y: -9.027514}
-  - {x: 9.910462, y: -9.055641}
-  - {x: 13.858031, y: -7.537117}
-  - {x: 17.606354, y: -6.2147174}
+  - {x: 9.443349, y: -8.713092}
+  - {x: 12.487834, y: -7.443694}
+  - {x: 14.475313, y: -6.956639}
+  - {x: 15.910532, y: -6.2636642}
+  - {x: 17.948902, y: -5.062505}
   - {x: 25.933216, y: -3.092442}
   - {x: 28.99007, y: -2.429091}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -333,6 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5193601338956474583}
   - component: {fileID: 2994961552330642542}
+  - component: {fileID: 1696115594}
   m_Layer: 0
   m_Name: Stairs
   m_TagString: Untagged
@@ -408,6 +416,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1696115594
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4636763639387212124}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 8.47, y: -0.69}
+      - {x: 7.72, y: -0.65}
+      - {x: 7.6, y: -0.65}
+      - {x: 7.52, y: -0.68}
+      - {x: 7.5099998, y: -0.75}
+      - {x: 7.54, y: -0.88}
+      - {x: 7.5299997, y: -1.14}
+      - {x: 7.5299997, y: -1.56}
+      - {x: 7.5499997, y: -1.56}
+      - {x: 7.5499997, y: -2.24}
+      - {x: 7.46, y: -2.23}
+      - {x: 7.45, y: -2.24}
+      - {x: 6.1, y: -2.24}
+      - {x: 6.0899997, y: -2.23}
+      - {x: 5.66, y: -2.22}
+      - {x: 5.41, y: -2.2}
+      - {x: 5.2, y: -2.2}
+      - {x: 5.19, y: -2.23}
+      - {x: 5.18, y: -2.61}
+      - {x: 5.18, y: -3.1499999}
+      - {x: 5.16, y: -3.1699998}
+      - {x: 5.1, y: -3.34}
+      - {x: 4.33, y: -3.34}
+      - {x: 4.3199997, y: -3.36}
+      - {x: 3.57, y: -3.34}
+      - {x: 3.09, y: -3.36}
+      - {x: 2.32, y: -3.37}
+      - {x: 2.1, y: -3.3899999}
+      - {x: 1.67, y: -3.3999999}
+      - {x: 1.63, y: -3.4399998}
+      - {x: 1.63, y: -4.4}
+      - {x: 1.62, y: -4.41}
+      - {x: 1.5799999, y: -4.48}
+      - {x: 0.84999996, y: -4.47}
+      - {x: -0.78, y: -4.47}
+      - {x: -0.78, y: -4.45}
+      - {x: -1.3, y: -4.45}
+      - {x: -1.31, y: -4.48}
+      - {x: -1.3199999, y: -4.74}
+      - {x: -1.36, y: -5.4}
+      - {x: 9.599999, y: -5.4}
+      - {x: 9.599999, y: -0.71}
+      - {x: 8.98, y: -0.7}
 --- !u!1 &5271993591336928103
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +594,7 @@ Transform:
   m_GameObject: {fileID: 7185202864607525029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 15, y: 9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 40140667776361088}
@@ -663,7 +739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4140764232455247327, guid: c518ffd518bd643d0a344b0919a64d0d, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4140764232455247333, guid: c518ffd518bd643d0a344b0919a64d0d, type: 3}
       propertyPath: m_Color.b

@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff19b0fc1fd5d489b86474345e512ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fingerForce: 100
+  fingerForce: 50
   fingerRigidbodies:
   - {fileID: 1885780566033476134}
   - {fileID: 7899562027206584151}
@@ -422,7 +422,7 @@ SpringJoint2D:
   m_ConnectedAnchor: {x: -0.99070734, y: -0.47765064}
   m_AutoConfigureDistance: 0
   m_Distance: 5
-  m_DampingRatio: 0.5
+  m_DampingRatio: 0.8
   m_Frequency: 1
 --- !u!1 &1885780566033476137
 GameObject:
@@ -576,7 +576,7 @@ SpringJoint2D:
   m_ConnectedAnchor: {x: -0.995355, y: -1.2894379}
   m_AutoConfigureDistance: 0
   m_Distance: 5
-  m_DampingRatio: 0
+  m_DampingRatio: 0.8
   m_Frequency: 1
 --- !u!1 &3408861522819935148
 GameObject:
@@ -1318,7 +1318,7 @@ SpringJoint2D:
   m_ConnectedAnchor: {x: -0.6388508, y: -1.31283}
   m_AutoConfigureDistance: 0
   m_Distance: 9
-  m_DampingRatio: 0.5
+  m_DampingRatio: 0.8
   m_Frequency: 1
 --- !u!1 &7899562026456129670
 GameObject:
@@ -1348,7 +1348,7 @@ Transform:
   m_GameObject: {fileID: 7899562026456129670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2, z: 0}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalScale: {x: 30, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1885780565559703064}
@@ -1605,7 +1605,7 @@ SpringJoint2D:
   m_ConnectedAnchor: {x: -0.50000006, y: -2.4335022}
   m_AutoConfigureDistance: 0
   m_Distance: 9
-  m_DampingRatio: 0.5
+  m_DampingRatio: 0.8
   m_Frequency: 1
 --- !u!1 &8503923252197813979
 GameObject:
