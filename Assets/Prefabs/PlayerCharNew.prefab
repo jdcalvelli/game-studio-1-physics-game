@@ -121,7 +121,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.1094857, y: 7.609249}
-  m_ConnectedAnchor: {x: -1.3882252, y: 0.06784877}
+  m_ConnectedAnchor: {x: -1.3882251, y: 0.06784877}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -208,7 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716825141694763707, guid: 784065da7ce7041a48ef5d75c6ff0651, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -1.9044495
+      value: -1.9044486
       objectReference: {fileID: 0}
     - target: {fileID: 8716825141694763707, guid: 784065da7ce7041a48ef5d75c6ff0651, type: 3}
       propertyPath: m_ConnectedRigidBody
@@ -241,7 +241,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.27867633, y: 2.3036015}
-  m_ConnectedAnchor: {x: 2.2069435, y: -1.5698978}
+  m_ConnectedAnchor: {x: 2.2069435, y: -1.5698968}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -268,11 +268,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198832168599764569, guid: bc66e443c994e49d58fc99c6fc83123b, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -1.3977603
+      value: -1.39776
       objectReference: {fileID: 0}
     - target: {fileID: 198832168599764569, guid: bc66e443c994e49d58fc99c6fc83123b, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 2.9569027
+      value: 2.9569023
       objectReference: {fileID: 0}
     - target: {fileID: 198832168599764569, guid: bc66e443c994e49d58fc99c6fc83123b, type: 3}
       propertyPath: m_ConnectedRigidBody
@@ -348,7 +348,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 1.7299316, y: 0.8542078}
-  m_ConnectedAnchor: {x: -2.2009926, y: -0.49462962}
+  m_ConnectedAnchor: {x: -2.2009926, y: -0.49462947}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -680,7 +680,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.18757558, y: 8.082663}
-  m_ConnectedAnchor: {x: 1.6247371, y: -0.28016332}
+  m_ConnectedAnchor: {x: 1.6247375, y: -0.28016332}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -703,7 +703,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1924118817, guid: 5bd4ae742f18a48e0bd5f52ee754858a, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.8658883
+      value: 0.8658885
       objectReference: {fileID: 0}
     - target: {fileID: 1924118817, guid: 5bd4ae742f18a48e0bd5f52ee754858a, type: 3}
       propertyPath: m_ConnectedRigidBody
