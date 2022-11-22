@@ -24,12 +24,12 @@ public class FingerViewMovement : MonoBehaviour
         {
             if (position0.y < 3.72)
             {
-                    Debug.Log (position0.y);
+                    //Debug.Log (position0.y);
                     position0.y += moveSpeed; 
             }
             if (position0.y > 3.72)
             {
-                    Debug.Log (position0.y);
+                    //Debug.Log (position0.y);
                     position0.y += 0; 
             }
             GameObject.Find("ThumbView").transform.position = position0;                  
@@ -52,12 +52,12 @@ public class FingerViewMovement : MonoBehaviour
             {
                 if (position1.y < 3.95)
                 {
-                    Debug.Log (position1.y);
+                    //Debug.Log (position1.y);
                     position1.y += moveSpeed;
                 }
                 if (position1.y > 3.95)
                 {
-                    Debug.Log (position1.y);
+                    //Debug.Log (position1.y);
                     position1.y += 0; 
                 }
                 GameObject.Find("IndexView").transform.position = position1;                 
@@ -81,12 +81,12 @@ public class FingerViewMovement : MonoBehaviour
             {
                 if (position2.y < 4.26)
                 {
-                    Debug.Log (position2.y);
+                    //Debug.Log (position2.y);
                     position2.y += moveSpeed;
                 }
                 if (position2.y > 4.26)
                 {
-                    Debug.Log (position2.y);
+                    //Debug.Log (position2.y);
                     position2.y += 0; 
                 }
                 GameObject.Find("MiddleView").transform.position = position2;                 
@@ -110,12 +110,12 @@ public class FingerViewMovement : MonoBehaviour
             {
                 if (position3.y < 4.1)
                 {
-                    Debug.Log (position3.y);
+                    //Debug.Log (position3.y);
                     position3.y += moveSpeed;
                 }
                 if (position3.y > 4.1)
                 {
-                    Debug.Log (position3.y);
+                    //Debug.Log (position3.y);
                     position3.y += 0; 
                 }
                 GameObject.Find("RingView").transform.position = position3;                 
@@ -132,10 +132,6 @@ public class FingerViewMovement : MonoBehaviour
                 }  
                 GameObject.Find("RingView").transform.position = position3;
         }
-
-
-
-
 
     }
 }
