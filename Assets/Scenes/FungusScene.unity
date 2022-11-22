@@ -168,7 +168,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 721934691}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e9b54e1008ace48e3919a91300ef90f4, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -192,8 +192,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
-    width: 146.19043
+    y: 68.552826
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -221,11 +221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 184.71407, y: 113.14269}
+  scrollPos: {x: 212.50366, y: 142}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -278,7 +278,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 721934691}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c643173c8c10a4bae9366284684fa472, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -301,12 +301,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: An elopement, is it? Very queer, very queer. How am I to register it
+  storyText: An elopement, is it? Very queer, very queer. How shall I register it
     in the system?
   description: 
   character: {fileID: 721934691}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f4ff9d65c9cde442dae6d281e8fa5e81, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 721934691}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7ad7e187f9d864beaa23c121430b701e, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 721934691}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6f6075a681f594dcb925625a0e8ab30f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -383,15 +383,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: 'It is to be all made of fantasy, All made of passion and all made of
-    wishes, All adoration, duty, and observance, All humbleness, all patience and
-    impatience,
+  storyText: 'It is to be all made of fantasy, All made of passion,and all made of
+    wishes, All adoration and duty, All humbleness, all patience and impatience,
 
-    All purity, all trial, all observance, And so am I for Juliet.'
+    All
+    purity, all trial, all observance, And so I am for Rosalind.'
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8aba62f78c25e4212a81b8d13e97c637, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68
     y: 116
-    width: 103.33331
+    width: 105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -443,11 +443,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Today is the joyful day, _______. Today will we be married.
+  storyText: Today is the joyful day, Juliet. Today will we be married.
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3fe9863b61e6540eea130c47dd741f38, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -471,11 +471,11 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   storyText: I do desire it with all my heart, and I hope it is no dishonest desire
-    to desire to be a woman of the world.
+    to desire to be a woman of the world, and marry a woman to make my world whole.
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 240fed017075c4a6bb2f054893b788b5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -525,6 +525,7 @@ GameObject:
   - component: {fileID: 607539467}
   - component: {fileID: 607539468}
   - component: {fileID: 607539469}
+  - component: {fileID: 607539470}
   m_Layer: 0
   m_Name: Flowchart_S2
   m_TagString: Untagged
@@ -546,9 +547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 141
+    x: 139.87419
     y: 83
-    width: 149.3292
+    width: 149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -575,19 +576,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 12.134702, y: 33.84419}
+  scrollPos: {x: -127.14859, y: 81}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8322495
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 607539466}
+  selectedCommands:
+  - {fileID: 607539470}
   variables: []
   description: 
   stepPause: 0
@@ -628,12 +631,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Ah, I see that you came as promised. Good, to the very least you are
-    a man of his word. '
+  storyText: 'Ah, I see that thou came as promised. Good, to the very least, I''m
+    set to slay a man of his word. '
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f91385efa58a44ceab36feb994f2e482, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -656,12 +659,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: As I always am, just as I will be true to my love for Juliet. She would
-    be mine!
+  storyText: A man of thy word, I always am, just as I will be true to my love for
+    Juliet. She would be mine!
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 57a73cc502842412da25adf1559c4d92, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -684,12 +687,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Do not disgust her or me even further. Be gone! Tis will all be settled
-    today.
+  storyText: Do not disgust her nor thine even further. Be gone! Tis all will be
+    settled today.
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0b19a570e07b74272831daee209d22cb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -712,11 +715,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'The words shall be returned. '
+  storyText: Those words shall be returned through my blade!
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fd0216095401e41b5a3b2ec83719d169, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -744,7 +747,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 73ab5b8d18c464b8ea54667d5521c040, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -769,7 +772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142
     y: 130
-    width: 128.5021
+    width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -799,7 +802,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c1a7b5a88b212407696f107a19f5611a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -822,11 +825,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Only a few seconds separate you from the sweet taste of death.
+  storyText: Only a few seconds separate thee from the sweet taste of death.
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5b54c56457cd947a0958f2d30aa4f3da, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -851,7 +854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 130
-    width: 130.10419
+    width: 128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -877,11 +880,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'Not even in your dreams. '
+  storyText: 'Not even in thou''s dreams. '
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fd27dedb4854b4f9aaf4dd709e3867f2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -904,11 +907,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: 'Take that! Admit your weakness and submit. '
+  storyText: 'Take that! Admit thou''s weakness and submit. '
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 72ab7e33631b544099ffff72bafed5f7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -931,14 +934,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 145
-    y: 177
-    width: 170.95732
+    x: 138.24513
+    y: 179.12581
+    width: 208
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 11
-  blockName: 2-3 __ Takes a Stab 1
+  blockName: 2-3 Rosalind Takes a Stab 1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -959,11 +962,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: 'Not until you yield. Fight! '
+  storyText: 'Not until I find thee yielding. Fight! '
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a7c3795fbb6424916b1ad3e03e813b5c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -986,11 +989,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'Ha! A taste of your own medicine. '
+  storyText: 'Ha! A taste of medicine from thou''s poisoned chalice. '
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c063d4d10f85d4a8db8da307860a273c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1013,14 +1016,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 323
+    x: 355.6486
     y: 177
-    width: 169.35522
+    width: 209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 14
-  blockName: 2-3 __Takes a Stab 2
+  blockName: 2-3 Rosalind Takes a Stab 2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -1041,11 +1044,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: This is nothing.
+  storyText: Tis nothing.
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0ba5d245241a242598496d3c08a4993c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1072,7 +1075,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f1b2a48ead9e642f8ac235fa748d6de8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1097,7 +1100,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 144
     y: 223
-    width: 200.59587
+    width: 199
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1123,11 +1126,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: 'Not the slightest! '
+  storyText: Not the slightest!  Tis illusions thou speaketh.
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 72526e911b6a74dc688b6b89bb9cae69, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1150,11 +1153,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Stand, you weakling. If you can still fight!
+  storyText: Stand, weakling. If thou can still fight!
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4f7293541a68e4946919951ba8aaca79, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1179,7 +1182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 351
     y: 223
-    width: 202.19795
+    width: 200
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1209,7 +1212,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cb569962c66f24f86ba0daad1faeafae, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1236,7 +1239,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cc6e949be7315472ea9d22b065f87775, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1259,11 +1262,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Take that! Now get lost with your tail between your legs.
+  storyText: Take that! Now get lost with thou's tail between thou's legs.
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3307e51ce9f324c9aaedb08959588d4c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1288,7 +1291,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562
     y: 225
-    width: 202.999
+    width: 201
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1314,12 +1317,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: What courage! You refrain from drawing your weapon. Tis reason for me
-    to withdraw mine?
+  storyText: What courage! Thou refrain from striking me with any ounce of force
+    nor damage. Tis reason for me to withdraw my scabbard?
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6fe61b5647c744c50bb21794e0240ad5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1342,9 +1345,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 146.51288
+    x: 145.31131
     y: 271.48233
-    width: 112.48126
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1356,6 +1359,7 @@ MonoBehaviour:
   - {fileID: 607539465}
   - {fileID: 607539467}
   - {fileID: 607539468}
+  - {fileID: 607539470}
   - {fileID: 607539469}
   suppressAllAutoSelections: 0
 --- !u!114 &607539467
@@ -1372,11 +1376,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: 'Uh, mayhaps tis best we reschedule? '
+  storyText: 'Uh, yes. Mayhaps tis best we reschedule? '
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 161226eea02d141a09b481e451d829cb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1399,11 +1403,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: As I imagined of you. Leave! Never make me see your face again.
+  storyText: Ha reschedule? Juliet was right, a comic fool indeed.  Leave! Now! Never
+    present thy face again in this town.
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7dc7ce36b86054e53b42d62bf91b7ef8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1441,6 +1446,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &607539470
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607539436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  storyText: Pardon, Juliet called me a what?
+  description: 
+  character: {fileID: 1394109370}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7cbd41664bb304f8ebae795f38c8161f, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &679287585
 GameObject:
   m_ObjectHideFlags: 1
@@ -1470,7 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 42229331}
+  selectedFlowchart: {fileID: 2024245257}
 --- !u!4 &679287587
 Transform:
   m_ObjectHideFlags: 1
@@ -1583,7 +1615,7 @@ GameObject:
   - component: {fileID: 1034749631}
   - component: {fileID: 1034749630}
   m_Layer: 0
-  m_Name: _______
+  m_Name: Rosalind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1601,7 +1633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: ________
+  nameText: Rosalind
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
@@ -1961,7 +1993,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 21de4ea748ffd48e2a3fee0d146040d7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1984,9 +2016,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 129
+    x: 128
     y: 142
-    width: 86.40776
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2011,11 +2043,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 86.87897, y: -29.416206}
+  scrollPos: {x: -132.66751, y: 30.161127}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8240002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2068,7 +2100,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 89644fbe633e0411bbe596c5530f5cb5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2095,7 +2127,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c7c98c7fb3a7f4dd2928698e6aa65213, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2118,9 +2150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 217
+    x: 215.78493
     y: 142
-    width: 87.21682
+    width: 87
     height: 40
   tint: {r: 0.6554445, g: 0.30817604, b: 1, a: 1}
   useCustomTint: 1
@@ -2149,7 +2181,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 041db9fef92ca43e687dfc411e9ee9f1, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2172,9 +2204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 128
+    x: 126.78641
     y: 184
-    width: 88.834946
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2203,7 +2235,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c96a6cc82830d4e8a86d115094c2804f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2228,7 +2260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217
     y: 186
-    width: 88.834946
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2257,7 +2289,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6c7dd50ce12ea452e9940dd118bbdeed, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2280,9 +2312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 308
+    x: 309
     y: 187
-    width: 83.980576
+    width: 84
     height: 40
   tint: {r: 0.65882355, g: 0.30980393, b: 1, a: 1}
   useCustomTint: 1
@@ -2311,7 +2343,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3ec7a6a4d0e9146b1b0fbd8adc5245f7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2336,7 +2368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 483.78
     y: 188.65616
-    width: 87.21682
+    width: 87
     height: 40
   tint: {r: 0.65882355, g: 0.30980393, b: 1, a: 1}
   useCustomTint: 1
@@ -2365,7 +2397,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ba1773352ce6b40748d2ae3fc9e90f7b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2390,7 +2422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 392.6637
     y: 187.58789
-    width: 88.02588
+    width: 88
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2419,7 +2451,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9c546108214614a6ab467f474ef6b594, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2442,9 +2474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 128.25914
+    x: 127.04555
     y: 225.42859
-    width: 88.02588
+    width: 88
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2474,7 +2506,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9eb7757698a0446d9b65f6fcf3085857, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2499,12 +2531,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217.25914
     y: 226.42859
-    width: 100.161804
+    width: 110
     height: 40
   tint: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   useCustomTint: 1
   itemId: 18
-  blockName: 1-9 (_RJ)
+  blockName: 1-9 (RdRJ)
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2530,7 +2562,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f87bbbe34d1094c1d83ffaf4c1280193, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2558,7 +2590,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ac03bae7978374beebd22175f398b914, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2582,11 +2614,12 @@ MonoBehaviour:
   itemId: 22
   indentLevel: 0
   storyText: "If thou had only listened when I said don\u2019t come up here! It is
-    no mistake that she is here at sun\u2019s set. This is ____ \u2026. my new lover."
+    no mistake that she is here at sun\u2019s set. This is Rosalind\u2026. my new
+    lover."
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 855a55217f24247aabd3303d9db1374c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2609,11 +2642,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Why, Juliet! Thou had not informed me your heart was set on another?
+  storyText: Why, Juliet! Thou had not informed me, thou heart is set on another?
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5bb5122e5820a4b59aa7dc5973aed9dc, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2636,9 +2669,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 318.25912
+    x: 319.25912
     y: 226.42859
-    width: 93.68931
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2663,12 +2696,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'I am truly sorry Romeo, but  ______ and I are set to be married in
+  storyText: 'I am truly sorry Romeo, but Rosalind and I are set to be married in
     a fortnight . '
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fa37c308929a041649c4952c210138df, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2693,12 +2726,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.25912
     y: 227.42859
-    width: 96.11649
+    width: 107
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
   itemId: 25
-  blockName: 1-11 (J_)
+  blockName: 1-11 (JRd)
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2723,7 +2756,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b9b2accfcddcd4e149acf48b0bd246a9, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2746,9 +2779,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 504.25916
+    x: 507.541
     y: 226.42859
-    width: 100.97086
+    width: 101
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
@@ -2779,7 +2812,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c3e23cb45f86447b7a22fc6189277ae1, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2806,7 +2839,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9e31c9f847d514951a64eaee1bbd373d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2834,7 +2867,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1034749630}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a505f4804ecc244b0b1739929df31c07, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2859,12 +2892,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 127.25914
     y: 266.4286
-    width: 106.63429
+    width: 117
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
   itemId: 31
-  blockName: 1-13 (_RJ)
+  blockName: 1-13 (RdRJ)
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2890,7 +2923,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1394109370}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0055ac439fa474a60ab9a4572ea169e3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2917,7 +2950,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 2019028371}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8391e8fc16d7849528965b1ed41725a2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
