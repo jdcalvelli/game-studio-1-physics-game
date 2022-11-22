@@ -464,30 +464,58 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1034749630}
+    - target: {fileID: 5978416542989513281, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 73ab5b8d18c464b8ea54667d5521c040, type: 3}
     - target: {fileID: 5978416542989513282, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1394109370}
+    - target: {fileID: 5978416542989513282, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5b54c56457cd947a0958f2d30aa4f3da, type: 3}
     - target: {fileID: 5978416542989513283, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1394109370}
+    - target: {fileID: 5978416542989513283, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c1a7b5a88b212407696f107a19f5611a, type: 3}
     - target: {fileID: 5978416542989513284, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1394109370}
+    - target: {fileID: 5978416542989513284, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 57a73cc502842412da25adf1559c4d92, type: 3}
     - target: {fileID: 5978416542989513285, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1034749630}
+    - target: {fileID: 5978416542989513285, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f91385efa58a44ceab36feb994f2e482, type: 3}
     - target: {fileID: 5978416542989513286, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1394109370}
+    - target: {fileID: 5978416542989513286, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fd0216095401e41b5a3b2ec83719d169, type: 3}
     - target: {fileID: 5978416542989513287, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1034749630}
+    - target: {fileID: 5978416542989513287, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b19a570e07b74272831daee209d22cb, type: 3}
     - target: {fileID: 5978416542989513288, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
@@ -504,6 +532,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1034749630}
+    - target: {fileID: 5978416542989513292, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: voiceOverClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fd27dedb4854b4f9aaf4dd709e3867f2, type: 3}
     - target: {fileID: 5978416542989513295, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
@@ -555,6 +587,10 @@ PrefabInstance:
     - target: {fileID: 5978416542989513306, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978416542989513307, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5978416542989513648, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
@@ -641,6 +677,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1394109370}
+    - target: {fileID: 6416156115790736145, guid: 275d6afd91eed438fb616494dfc61507, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6416156115790736146, guid: 275d6afd91eed438fb616494dfc61507, type: 3}
       propertyPath: m_RootOrder
       value: 2
