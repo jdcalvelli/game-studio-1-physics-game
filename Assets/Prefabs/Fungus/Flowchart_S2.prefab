@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 5978416542989513662}
   - component: {fileID: 5978416542989513657}
   - component: {fileID: 5978416542989513656}
+  - component: {fileID: 5978416542382236347}
   m_Layer: 0
   m_Name: Flowchart_S2
   m_TagString: Untagged
@@ -87,8 +88,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 5978416542989513652}
+  selectedCommands:
+  - {fileID: 5978416542989513653}
   variables: []
   description: 
   stepPause: 0
@@ -116,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141
     y: 83
-    width: 148.52814
+    width: 150.93127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -149,7 +152,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f91385efa58a44ceab36feb994f2e482, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -177,7 +180,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 57a73cc502842412da25adf1559c4d92, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -205,7 +208,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0b19a570e07b74272831daee209d22cb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -232,7 +235,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fd0216095401e41b5a3b2ec83719d169, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -257,7 +260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142
     y: 130
-    width: 125.69845
+    width: 128.70236
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -288,7 +291,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 73ab5b8d18c464b8ea54667d5521c040, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -315,7 +318,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c1a7b5a88b212407696f107a19f5611a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -340,7 +343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 130
-    width: 126.90002
+    width: 129.90393
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -370,7 +373,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5b54c56457cd947a0958f2d30aa4f3da, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -397,7 +400,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fd27dedb4854b4f9aaf4dd709e3867f2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -422,12 +425,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 145
     y: 177
-    width: 168.95471
+    width: 209.80785
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 11
-  blockName: 2-3 __ Takes a Stab 1
+  blockName: 2-3 Rosalind Takes a Stab 1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -452,7 +455,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 72ab7e33631b544099ffff72bafed5f7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -479,7 +482,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a7c3795fbb6424916b1ad3e03e813b5c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -504,12 +507,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 323
     y: 177
-    width: 167.75314
+    width: 211.0094
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 14
-  blockName: 2-3 __Takes a Stab 2
+  blockName: 2-3 Rosalind Takes a Stab 2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -534,7 +537,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c063d4d10f85d4a8db8da307860a273c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -561,7 +564,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0ba5d245241a242598496d3c08a4993c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -586,7 +589,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 144
     y: 223
-    width: 198.99377
+    width: 200.79613
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -616,7 +619,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f1b2a48ead9e642f8ac235fa748d6de8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -643,7 +646,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 72526e911b6a74dc688b6b89bb9cae69, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -668,7 +671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 351
     y: 223
-    width: 200.19534
+    width: 201.99768
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -698,7 +701,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4f7293541a68e4946919951ba8aaca79, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -725,7 +728,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cb569962c66f24f86ba0daad1faeafae, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -750,7 +753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562
     y: 225
-    width: 201.3969
+    width: 202.59846
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -780,7 +783,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3307e51ce9f324c9aaedb08959588d4c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -807,7 +810,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cc6e949be7315472ea9d22b065f87775, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -832,7 +835,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.51288
     y: 271.48233
-    width: 111.27969
+    width: 112.48126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -842,8 +845,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 5978416542989513660}
-  - {fileID: 5978416542989513662}
+  - {fileID: 5978416542382236347}
   - {fileID: 5978416542989513657}
+  - {fileID: 5978416542989513662}
   - {fileID: 5978416542989513656}
   suppressAllAutoSelections: 0
 --- !u!114 &5978416542989513660
@@ -865,7 +869,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6fe61b5647c744c50bb21794e0240ad5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -888,11 +892,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: 'Uh, mayhaps tis best we reschedule? '
+  storyText: Wait, Juliet called me a what?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7cbd41664bb304f8ebae795f38c8161f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -919,7 +923,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7dc7ce36b86054e53b42d62bf91b7ef8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -949,6 +953,33 @@ MonoBehaviour:
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &5978416542382236347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978416542989513305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  storyText: 'Uh, mayhaps tis best we reschedule? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 161226eea02d141a09b481e451d829cb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
