@@ -90,7 +90,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 6416156115790736176}
   selectedCommands: []
   variables: []
   description: 
@@ -149,7 +150,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 21de4ea748ffd48e2a3fee0d146040d7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -176,7 +177,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 89644fbe633e0411bbe596c5530f5cb5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -230,7 +231,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c7c98c7fb3a7f4dd2928698e6aa65213, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -284,7 +285,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 041db9fef92ca43e687dfc411e9ee9f1, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -338,7 +339,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c96a6cc82830d4e8a86d115094c2804f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -392,7 +393,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6c7dd50ce12ea452e9940dd118bbdeed, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -446,7 +447,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ba1773352ce6b40748d2ae3fc9e90f7b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -500,7 +501,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3ec7a6a4d0e9146b1b0fbd8adc5245f7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -555,7 +556,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9c546108214614a6ab467f474ef6b594, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -611,7 +612,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9eb7757698a0446d9b65f6fcf3085857, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -638,7 +639,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f87bbbe34d1094c1d83ffaf4c1280193, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -666,7 +667,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ac03bae7978374beebd22175f398b914, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -690,11 +691,12 @@ MonoBehaviour:
   itemId: 22
   indentLevel: 0
   storyText: "If thou had only listened when I said don\u2019t come up here! It is
-    no mistake that she is here at sun\u2019s set. This is ____ \u2026. my new lover."
+    no mistake that she is here at sun\u2019s set. This is Rosalind \u2026. my new
+    lover."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 855a55217f24247aabd3303d9db1374c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -719,12 +721,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.25912
     y: 226.42859
-    width: 94.90291
+    width: 104.00484
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
   itemId: 23
-  blockName: 1-10 (R)
+  blockName: 1-10 (R) *
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -744,11 +746,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Why, Juliet! Thou had not informed me your heart was set on another?
+  storyText: Why, Juliet! Thou had not informed me thine heart was set on another?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5bb5122e5820a4b59aa7dc5973aed9dc, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -799,12 +801,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'I am truly sorry Romeo, but  ______ and I are set to be married in
+  storyText: 'I am truly sorry Romeo, but Rosalind and I are set to be married in
     a fortnight . '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fa37c308929a041649c4952c210138df, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -831,7 +833,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b9b2accfcddcd4e149acf48b0bd246a9, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -887,7 +889,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c3e23cb45f86447b7a22fc6189277ae1, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -914,7 +916,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9e31c9f847d514951a64eaee1bbd373d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -971,7 +973,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a505f4804ecc244b0b1739929df31c07, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -998,7 +1000,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0055ac439fa474a60ab9a4572ea169e3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1025,7 +1027,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8391e8fc16d7849528965b1ed41725a2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
