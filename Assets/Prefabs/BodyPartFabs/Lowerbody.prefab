@@ -122,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.44586706, y: -0.068594456}
+  m_Offset: {x: 0.34337378, y: -0.068594456}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -133,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.5231276, y: 5.3283377}
+  m_Size: {x: 5.211363, y: 5.3283377}
   m_EdgeRadius: 0
 --- !u!233 &2569973428987924628
 HingeJoint2D:
@@ -150,7 +150,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 1.6714113, y: 0.04398465}
-  m_ConnectedAnchor: {x: 0.26447678, y: 8.380632}
+  m_ConnectedAnchor: {x: 0.32800356, y: -1.8567368}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -174,7 +174,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -1.5834415, y: -0.04398489}
-  m_ConnectedAnchor: {x: -0.2929247, y: 7.5041623}
+  m_ConnectedAnchor: {x: -0.20947683, y: -1.8712634}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

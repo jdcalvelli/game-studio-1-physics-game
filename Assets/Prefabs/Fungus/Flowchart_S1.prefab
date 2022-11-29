@@ -44,6 +44,10 @@ GameObject:
   - component: {fileID: 6416156115790736191}
   - component: {fileID: 6416156115790736177}
   - component: {fileID: 6416156115790736178}
+  - component: {fileID: 8144567348234678474}
+  - component: {fileID: 2981721197227731524}
+  - component: {fileID: 2238629192138689020}
+  - component: {fileID: 4281207961252246313}
   m_Layer: 0
   m_Name: Flowchart_S1
   m_TagString: Untagged
@@ -90,7 +94,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 6416156115790736158}
   selectedCommands: []
   variables: []
   description: 
@@ -119,7 +124,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 129
     y: 142
-    width: 87.62135
+    width: 86.40776
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -130,6 +135,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 6416156115790736157}
   - {fileID: 6416156115790736147}
+  - {fileID: 2238629192138689020}
   suppressAllAutoSelections: 0
 --- !u!114 &6416156115790736157
 MonoBehaviour:
@@ -201,7 +207,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217
     y: 142
-    width: 88.22815
+    width: 87.21682
     height: 40
   tint: {r: 0.6554445, g: 0.30817604, b: 1, a: 1}
   useCustomTint: 1
@@ -255,7 +261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 128
     y: 184
-    width: 89.44174
+    width: 88.834946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -309,7 +315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217
     y: 186
-    width: 89.44174
+    width: 88.834946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -363,7 +369,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 308
     y: 187
-    width: 85.19417
+    width: 83.980576
     height: 40
   tint: {r: 0.65882355, g: 0.30980393, b: 1, a: 1}
   useCustomTint: 1
@@ -373,6 +379,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6416156115790736138}
+  - {fileID: 8144567348234678474}
   suppressAllAutoSelections: 0
 --- !u!114 &6416156115790736138
 MonoBehaviour:
@@ -417,7 +424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 392.6637
     y: 187.58789
-    width: 88.834946
+    width: 88.02588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -427,6 +434,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6416156115790736142}
+  - {fileID: 2981721197227731524}
   suppressAllAutoSelections: 0
 --- !u!114 &6416156115790736142
 MonoBehaviour:
@@ -471,7 +479,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 483.78
     y: 188.65616
-    width: 88.22815
+    width: 87.21682
     height: 40
   tint: {r: 0.65882355, g: 0.30980393, b: 1, a: 1}
   useCustomTint: 1
@@ -524,8 +532,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 128.25914
-    y: 225.42859
-    width: 88.834946
+    y: 226.64218
+    width: 88.02588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -580,7 +588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217.25914
     y: 226.42859
-    width: 100.97086
+    width: 100.161804
     height: 40
   tint: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   useCustomTint: 1
@@ -719,7 +727,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.25912
     y: 226.42859
-    width: 94.90291
+    width: 93.68931
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -729,6 +737,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6416156115790736135}
+  - {fileID: 4281207961252246313}
   suppressAllAutoSelections: 0
 --- !u!114 &6416156115790736135
 MonoBehaviour:
@@ -773,7 +782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.25912
     y: 227.42859
-    width: 97.93688
+    width: 96.11649
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
@@ -799,8 +808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'I am truly sorry Romeo, but  ______ and I are set to be married in
-    a fortnight . '
+  storyText: 'I am truly sorry Romeo, but  Rosalind and I are set to be married in
+    a fortnight. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -856,7 +865,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 504.25916
     y: 226.42859
-    width: 102.184456
+    width: 100.97086
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
@@ -939,7 +948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 127.25914
     y: 266.4286
-    width: 107.645615
+    width: 106.63429
     height: 40
   tint: {r: 0.5176471, g: 0.5176471, b: 0.5176471, a: 1}
   useCustomTint: 1
@@ -1034,3 +1043,87 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &8144567348234678474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416156115790736156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 6416156115790736143}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &2981721197227731524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416156115790736156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 6416156115790736141}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &2238629192138689020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416156115790736156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 6416156115790736149}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &4281207961252246313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416156115790736156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 6416156115790736186}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0

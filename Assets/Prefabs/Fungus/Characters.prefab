@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5415254110094669382}
   - component: {fileID: 5415254110094669383}
   m_Layer: 0
-  m_Name: _______
+  m_Name: Rosalind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: ________
+  nameText: Rosalind
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
