@@ -66,8 +66,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2313844005366044250}
+  selectedCommands:
+  - {fileID: 2313844005366044249}
   variables: []
   description: 
   stepPause: 0
@@ -128,7 +130,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e9b54e1008ace48e3919a91300ef90f4, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -156,7 +158,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f4ff9d65c9cde442dae6d281e8fa5e81, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -183,7 +185,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c643173c8c10a4bae9366284684fa472, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -210,7 +212,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7ad7e187f9d864beaa23c121430b701e, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -237,7 +239,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6f6075a681f594dcb925625a0e8ab30f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -290,14 +292,14 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: 'It is to be all made of fantasy, All made of passion and all made of
-    wishes, All adoration, duty, and observance, All humbleness, all patience and
-    impatience,
+    wishes, All adoration and duty. All humbleness, all patience and impatience,
 
-    All purity, all trial, all observance, And so am I for Juliet.'
+    All
+    purity, all trial, all observance, And so am I for Juliet.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8aba62f78c25e4212a81b8d13e97c637, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -320,11 +322,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Today is the joyful day, _______. Today will we be married.
+  storyText: Today is the joyful day, Juliet. Today will we be married.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3fe9863b61e6540eea130c47dd741f38, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -352,7 +354,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 240fed017075c4a6bb2f054893b788b5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0

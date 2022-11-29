@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2024245257}
+  selectedFlowchart: {fileID: 2313844005391484929}
 --- !u!4 &679287587
 Transform:
   m_ObjectHideFlags: 1
@@ -296,17 +296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2024245257 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6416156115790736145, guid: 275d6afd91eed438fb616494dfc61507, type: 3}
-  m_PrefabInstance: {fileID: 6416156115931734808}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2313844005391484928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -396,6 +385,17 @@ PrefabInstance:
       objectReference: {fileID: 2019028371}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d89ed112146394453a375e0b62e64870, type: 3}
+--- !u!114 &2313844005391484929 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2313844005366044243, guid: d89ed112146394453a375e0b62e64870, type: 3}
+  m_PrefabInstance: {fileID: 2313844005391484928}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5415254111107395833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -460,6 +460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5978416542382236347, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1394109370}
     - target: {fileID: 5978416542989513281, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: character
       value: 
