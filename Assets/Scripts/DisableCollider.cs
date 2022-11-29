@@ -8,6 +8,7 @@ public class DisableCollider : MonoBehaviour
     void Start()
     {
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
         StartCoroutine(Wait());
 
     }
@@ -15,5 +16,6 @@ public class DisableCollider : MonoBehaviour
     IEnumerator Wait(){
         yield return new WaitForSeconds(23);
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 }
