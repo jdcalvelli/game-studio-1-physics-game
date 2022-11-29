@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 86.87897, y: -29.416206}
+  scrollPos: {x: 71.33461, y: -36.752766}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -95,8 +95,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6416156115790736158}
-  selectedCommands: []
+  - {fileID: 6416156115790736176}
+  selectedCommands:
+  - {fileID: 6416156115790736178}
   variables: []
   description: 
   stepPause: 0
@@ -151,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: 'But soft! What light through yonder window breaks? '
+  storyText: But soft!...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -160,9 +161,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736147
 MonoBehaviour:
@@ -178,7 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: It is my lady, Juliet; O, it is my love!
+  storyText: My lady, Juliet...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -232,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'O Romeo, Romeo, art thou a fool to return? Prithee be gone! '
+  storyText: ' ...Prithee be gone! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -241,9 +242,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736151
 MonoBehaviour:
@@ -286,7 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: "Under love\u2019s heavy burden do I sink (fall)."
+  storyText: ...I sink!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -295,9 +296,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736137
 MonoBehaviour:
@@ -314,7 +315,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 217
-    y: 186
+    y: 180.96222
     width: 88.834946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -340,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "O, I am Fortune\u2019s fool!"
+  storyText: "...Fortune\u2019s fool!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -349,9 +350,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736139
 MonoBehaviour:
@@ -395,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: O Romeo! Art thou uninjured?
+  storyText: O Romeo!...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -404,9 +405,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736143
 MonoBehaviour:
@@ -423,7 +424,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 392.6637
-    y: 187.58789
+    y: 186.32845
     width: 88.02588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -450,7 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Do not fret, my lady. I am unscathed!
+  storyText: ...I am unscathed!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -459,9 +460,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736141
 MonoBehaviour:
@@ -504,7 +505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: ...Tis a shame (low voice).
+  storyText: ...Tis a shame.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -513,9 +514,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736129
 MonoBehaviour:
@@ -559,7 +560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: The moonlight has blessed us, thou art so fair and lovely in the night.
+  storyText: The moonlight...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -568,9 +569,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736131
 MonoBehaviour:
@@ -615,7 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: My breath runneth away from me.
+  storyText: My breath...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -624,9 +625,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736132
 MonoBehaviour:
@@ -642,7 +643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Don\u2019t dare take another step, Romeo!"
+  storyText: "Don\u2019t dare..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -651,9 +652,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736133
 MonoBehaviour:
@@ -669,8 +670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Uh, Juliet? I was not privy to fact that thou had a guest? At this late
-    hour nonetheless?
+  storyText: Uh, Juliet?...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -679,9 +679,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736134
 MonoBehaviour:
@@ -697,8 +697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "If thou had only listened when I said don\u2019t come up here! It is
-    no mistake that she is here at sun\u2019s set. This is ____ \u2026. my new lover."
+  storyText: ...My new lover.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -707,9 +706,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736184
 MonoBehaviour:
@@ -753,7 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Why, Juliet! Thou had not informed me your heart was set on another?
+  storyText: Why, Juliet!...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -762,9 +761,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736186
 MonoBehaviour:
@@ -808,8 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'I am truly sorry Romeo, but  Rosalind and I are set to be married in
-    a fortnight. '
+  storyText: Sorry Romeo...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -818,9 +816,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736187
 MonoBehaviour:
@@ -836,7 +834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Are your ears clear to hear the voice of sweet Juliet? Make haste!
+  storyText: ...make haste!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -845,9 +843,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736188
 MonoBehaviour:
@@ -891,8 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Thou think lowly of me? I will fight for my sun, my heart will not stand
-    to lose my Juliet without a fight!
+  storyText: My sun...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -901,9 +898,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736190
 MonoBehaviour:
@@ -919,7 +916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: Oh thou art a proper fool, Romeo.
+  storyText: A proper fool...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -928,9 +925,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736176
 MonoBehaviour:
@@ -975,8 +972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Romeo wishes to challenge for thine love, dearest. Thy blade has ached
-    for a duel. On the morrow, we shall fight, if thou courage holds by then.
+  storyText: We shall fight...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -985,9 +981,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736177
 MonoBehaviour:
@@ -1003,7 +999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: 'My courage holds strong for my heart is set on Juliet! '
+  storyText: My courage...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1012,9 +1008,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &6416156115790736178
 MonoBehaviour:
@@ -1030,7 +1026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: "Please don\u2019t injure Romeo too much dearest."
+  storyText: "Don\u2019t injure Romeo..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1039,9 +1035,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &8144567348234678474
 MonoBehaviour:

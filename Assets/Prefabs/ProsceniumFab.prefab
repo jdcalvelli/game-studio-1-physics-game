@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFlowchart: {fileID: 880838765156466603}
-  firework: {fileID: 0}
+  firework: {fileID: 5730612506967039279, guid: 4544448ecb3e3ff4bbb9f232697aa03f, type: 3}
 --- !u!1 &1107127354991068739
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8645691728045290462
 Transform:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333277542371247661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5, y: -8.91, z: 0}
+  m_LocalPosition: {x: -6.86, y: -8.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1625,7 +1625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6416156115790736145, guid: 275d6afd91eed438fb616494dfc61507, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6416156115790736145, guid: 275d6afd91eed438fb616494dfc61507, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
