@@ -269,17 +269,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 713470adb65c34d459406d2a515d2304, type: 3}
---- !u!114 &521523774 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 880838765156466603, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
-  m_PrefabInstance: {fileID: 1151386916}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &586366445 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 4940909859521016087, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
@@ -935,9 +924,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1063887754, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063887754, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.23
+      objectReference: {fileID: 0}
     - target: {fileID: 2903548940473688318, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
       propertyPath: m_Name
       value: ProsceniumFab
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472375609879086971, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472375609879086971, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 8725408962860894871, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
       propertyPath: m_RootOrder
@@ -1340,7 +1345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 521523774}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &1852182004
 Transform:
   m_ObjectHideFlags: 1
