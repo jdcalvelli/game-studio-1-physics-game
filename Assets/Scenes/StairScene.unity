@@ -924,6 +924,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1036619527, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b87d4b30205e2384394aa3845b918ab8, type: 3}
     - target: {fileID: 2903548940473688318, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
       propertyPath: m_Name
       value: ProsceniumFab
@@ -1490,6 +1494,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1950912552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6970893096688618145, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
+  m_PrefabInstance: {fileID: 631629481536283574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1950912558
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950912552}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.75392836, y: -2.4601867}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.69, y: 11.35}
+    newSize: {x: 9.69, y: 11.35}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.0077076, y: 6.429627}
+  m_EdgeRadius: 0
+--- !u!61 &1950912559
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950912552}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.349134, y: 3.095073}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.69, y: 11.35}
+    newSize: {x: 9.69, y: 11.35}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.4998507, y: 4.366245}
+  m_EdgeRadius: 0
 --- !u!4 &2060820747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2354997214943814183, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
@@ -1871,7 +1932,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1950912558, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
 --- !u!1001 &7899562027615146743
 PrefabInstance:
