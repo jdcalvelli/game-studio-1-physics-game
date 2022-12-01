@@ -20,7 +20,7 @@ public class FingerViewMovement : MonoBehaviour
         Vector3 position2 = GameObject.Find("MiddleView").transform.position;
         Vector3 position3 = GameObject.Find("RingView").transform.position;
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.N))
         {
             if (position0.y < 3.72)
             {
@@ -48,7 +48,7 @@ public class FingerViewMovement : MonoBehaviour
         
         //
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.J))
             {
                 if (position1.y < 3.95)
                 {
@@ -77,7 +77,7 @@ public class FingerViewMovement : MonoBehaviour
 
         //
 
-        if (Input.GetKey(KeyCode.O))
+        if (Input.GetKey(KeyCode.K))
             {
                 if (position2.y < 4.26)
                 {
@@ -106,7 +106,7 @@ public class FingerViewMovement : MonoBehaviour
 
         //
         
-          if (Input.GetKey(KeyCode.P))
+          if (Input.GetKey(KeyCode.L))
             {
                 if (position3.y < 4.1)
                 {

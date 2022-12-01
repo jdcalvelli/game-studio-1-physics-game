@@ -11,22 +11,22 @@ public class HandController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.N))
         {
             fingerRigidbodies[0].AddForce(transform.up * fingerForce);
         }
         
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.J))
         {
             fingerRigidbodies[1].AddForce(transform.up * fingerForce);
         }
         
-        if (Input.GetKey(KeyCode.O))
+        if (Input.GetKey(KeyCode.K))
         {
             fingerRigidbodies[2].AddForce(transform.up * fingerForce);
         }
         
-        if (Input.GetKey(KeyCode.P))
+        if (Input.GetKey(KeyCode.L))
         {
             fingerRigidbodies[3].AddForce(transform.up * fingerForce);
         }
