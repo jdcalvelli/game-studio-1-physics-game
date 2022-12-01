@@ -924,10 +924,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1036619527, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b87d4b30205e2384394aa3845b918ab8, type: 3}
     - target: {fileID: 2903548940473688318, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
       propertyPath: m_Name
       value: ProsceniumFab
