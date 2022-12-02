@@ -11,6 +11,7 @@ public class RosalindController : MonoBehaviour
 
     [SerializeField] private float timeToWait;
     [SerializeField] private SpringJoint2D swordString;
+    [SerializeField] private int[] swordPositions;
 
     private void Start()
     {
@@ -20,7 +21,15 @@ public class RosalindController : MonoBehaviour
 
     private IEnumerator SetSwordString()
     {
-        swordString.distance = Random.Range(2, 5);
+        float lastSwordPosition = swordString.distance;
+        int currentSwordPosition = swordPositions[Random.Range(0, swordPositions.Length)];
+
+        while (currentSwordPosition == lastSwordPosition)
+        {
+            currentSwordPosition = swordPositions[Random.Range(0, swordPositions.Length)];
+        }
+        
+        swordString.distance = currentSwordPosition;
         Debug.Log(swordString.distance);
         yield return new WaitForSeconds(timeToWait);
 
