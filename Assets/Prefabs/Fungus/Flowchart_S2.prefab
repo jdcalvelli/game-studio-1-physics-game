@@ -480,6 +480,7 @@ GameObject:
   - component: {fileID: 5309864204971431502}
   - component: {fileID: 4581492024983828336}
   - component: {fileID: 905134480}
+  - component: {fileID: 8363930279624419845}
   m_Layer: 0
   m_Name: Flowchart_S2
   m_TagString: Untagged
@@ -517,18 +518,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 104.97196, y: 54.506393}
+  scrollPos: {x: 40.842087, y: 80.138695}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7422496
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 5978416542989513663}
   selectedCommands: []
   variables: []
   description: 
@@ -555,9 +557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 141
+    x: 144.05014
     y: 83
-    width: 149.3292
+    width: 145.23807
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -586,10 +588,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Ah, I see that you came as promised. Good, to the very least you are
-    a man of his word. '
+  storyText: Thou came as promised...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: f91385efa58a44ceab36feb994f2e482, type: 3}
   showAlways: 1
@@ -614,10 +615,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: As I always am, just as I will be true to my love for Juliet. She would
-    be mine!
+  storyText: I will be true to my love...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 57a73cc502842412da25adf1559c4d92, type: 3}
   showAlways: 1
@@ -642,10 +642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Do not disgust her or me even further. Be gone! Tis will all be settled
-    today.
+  storyText: ...Be gone!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 0b19a570e07b74272831daee209d22cb, type: 3}
   showAlways: 1
@@ -670,9 +669,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'The words shall be returned. '
+  storyText: Words shall be returned...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: fd0216095401e41b5a3b2ec83719d169, type: 3}
   showAlways: 1
@@ -699,7 +698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142
     y: 130
-    width: 127.24265
+    width: 123.333305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -725,10 +724,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Draw your scabbard, foul lord. Your end is nigh on this unfavorable
-    day.
+  storyText: Draw your scabbard...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 73ab5b8d18c464b8ea54667d5521c040, type: 3}
   showAlways: 1
@@ -753,9 +751,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: 'It is thee whose end will be brought forth! '
+  storyText: It is thee...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: c1a7b5a88b212407696f107a19f5611a, type: 3}
   showAlways: 1
@@ -782,7 +780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.20157
     y: 130
-    width: 128.14082
+    width: 124.28568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -808,9 +806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Only a few seconds separate you from the sweet taste of death.
+  storyText: ...sweet taste of death.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 5b54c56457cd947a0958f2d30aa4f3da, type: 3}
   showAlways: 1
@@ -835,9 +833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'Not even in your dreams. '
+  storyText: 'Not even in thine dreams. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: fd27dedb4854b4f9aaf4dd709e3867f2, type: 3}
   showAlways: 1
@@ -863,8 +861,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 145
-    y: 177
-    width: 208.97617
+    y: 178
+    width: 200.47614
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -890,9 +888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: 'Take that! Admit your weakness and submit. '
+  storyText: Take that!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 72ab7e33631b544099ffff72bafed5f7, type: 3}
   showAlways: 1
@@ -917,9 +915,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: 'Not until you yield. Fight! '
+  storyText: '...Fight! '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: a7c3795fbb6424916b1ad3e03e813b5c, type: 3}
   showAlways: 1
@@ -945,8 +943,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 359.04703
-    y: 178.20157
-    width: 209.87433
+    y: 179.20157
+    width: 201.42851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -972,9 +970,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'Ha! A taste of your own medicine. '
+  storyText: Ha!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: c063d4d10f85d4a8db8da307860a273c, type: 3}
   showAlways: 1
@@ -999,18 +997,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: This is nothing.
+  storyText: Tis nothing.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 0ba5d245241a242598496d3c08a4993c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &5978416542989513652
 MonoBehaviour:
@@ -1028,7 +1026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 144
     y: 223
-    width: 199.99446
+    width: 192.85709
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1054,9 +1052,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: 'What, art thou unwell? Too weak to stand back up? '
+  storyText: Too weak?...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: f1b2a48ead9e642f8ac235fa748d6de8, type: 3}
   showAlways: 1
@@ -1083,7 +1081,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Not the slightest! '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 72526e911b6a74dc688b6b89bb9cae69, type: 3}
   showAlways: 1
@@ -1110,7 +1108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 354.6047
     y: 223
-    width: 200.89262
+    width: 193.80946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1136,9 +1134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Stand, you weakling. If you can still fight!
+  storyText: Stand, weakling!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 4f7293541a68e4946919951ba8aaca79, type: 3}
   showAlways: 1
@@ -1163,9 +1161,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: '*Groans* Of course. For my dearest Juliet!'
+  storyText: ...For Juliet!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: cb569962c66f24f86ba0daad1faeafae, type: 3}
   showAlways: 1
@@ -1192,7 +1190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562
     y: 225
-    width: 201.7908
+    width: 194.76184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1218,9 +1216,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Take that! Now get lost with your tail between your legs.
+  storyText: Take that!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 3307e51ce9f324c9aaedb08959588d4c, type: 3}
   showAlways: 1
@@ -1245,9 +1243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: 'Never! I can still stand. '
+  storyText: Never!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: cc6e949be7315472ea9d22b065f87775, type: 3}
   showAlways: 1
@@ -1274,14 +1272,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.51288
     y: 271.48233
-    width: 111.973755
+    width: 108.095215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 26
   blockName: 2-5 Ending
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 8363930279624419845}
   commandList:
   - {fileID: 5978416542989513660}
   - {fileID: 5978416542382236347}
@@ -1303,10 +1301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: What courage! You refrain from drawing your weapon. Tis reason for me
-    to withdraw mine?
+  storyText: What courage!...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 6fe61b5647c744c50bb21794e0240ad5, type: 3}
   showAlways: 1
@@ -1331,9 +1328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: Wait, Juliet called me a what?
+  storyText: Pardon?...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 7cbd41664bb304f8ebae795f38c8161f, type: 3}
   showAlways: 1
@@ -1358,9 +1355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: As I imagined of you. Leave! Never make me see your face again.
+  storyText: ...A comic fool indeed!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972398571081901}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 7dc7ce36b86054e53b42d62bf91b7ef8, type: 3}
   showAlways: 1
@@ -1378,7 +1375,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5978416542989513305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -1414,9 +1411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'Uh, mayhaps tis best we reschedule? '
+  storyText: Uh...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 6212972400424238505}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 161226eea02d141a09b481e451d829cb, type: 3}
   showAlways: 1
@@ -1553,6 +1550,21 @@ MonoBehaviour:
   parentBlock: {fileID: 5978416542989513304}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &8363930279624419845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978416542989513305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 5978416542989513663}
+  suppressBlockAutoSelect: 0
+  message: Ending
 --- !u!1 &6595337497427763373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,7 +1726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello
+  m_Text: 'Words shall be returned. '
 --- !u!114 &7804013296612279304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,8 +2021,30 @@ PrefabInstance:
       objectReference: {fileID: 1387846485939266035}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f49bd394cda4082aaf00001433cb68, type: 3}
+--- !u!114 &6212972398571081901 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5415254110094669383, guid: c0f49bd394cda4082aaf00001433cb68, type: 3}
+  m_PrefabInstance: {fileID: 2098168999140943594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6212972398723725420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5415254110246248070, guid: c0f49bd394cda4082aaf00001433cb68, type: 3}
   m_PrefabInstance: {fileID: 2098168999140943594}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6212972400424238505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5415254111931063107, guid: c0f49bd394cda4082aaf00001433cb68, type: 3}
+  m_PrefabInstance: {fileID: 2098168999140943594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
