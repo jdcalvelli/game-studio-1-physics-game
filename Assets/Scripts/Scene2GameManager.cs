@@ -40,8 +40,7 @@ public class Scene2GameManager : MonoBehaviour
         {
             case Scene2States.CurtainAnimating:
                 curtainAnimator.SetTrigger("openCurtain");
-                curtainAudio.enabled = false;
-                curtainAudio.enabled = true;
+                StartCoroutine(waitToPlayCurtainAudio());
                 flowchart.SendFungusMessage("startScene2");
                 scene2States = Scene2States.Fighting;
                 break;
@@ -67,5 +66,11 @@ public class Scene2GameManager : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    private IEnumerator waitToPlayCurtainAudio()
+    {
+        yield return new WaitForSeconds(1f);
+        curtainAudio.Play();
     }
 }
