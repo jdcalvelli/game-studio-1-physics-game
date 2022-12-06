@@ -14,7 +14,7 @@ public class MusicPlayerScript : MonoBehaviour
     void Start()
     {
         //AudioSource.Play(); //Plays the sound
-        AudioSource.PlayScheduled(AudioSettings.dspTime + 12); //Plays audio after 12 Seconds
+        AudioSource.PlayScheduled(AudioSettings.dspTime + 10); //Plays audio after 12 Seconds
    
     }
 

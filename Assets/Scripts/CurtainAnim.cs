@@ -10,11 +10,6 @@ public class CurtainAnim : MonoBehaviour
 
     [SerializeField] private Flowchart cutsceneController;
 
-    private void Start()
-    {
-        OpenCurtain();
-    }
-
     public void OpenCurtain()
     {
         gameObject.GetComponent<Animator>().SetTrigger("openCurtain");

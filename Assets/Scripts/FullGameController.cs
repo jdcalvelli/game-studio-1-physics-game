@@ -5,11 +5,17 @@ using Fungus;
 
 public class FullGameController : MonoBehaviour
 {
+    [SerializeField] private AudioSource curtainAudio;
+    
+    [SerializeField] private GameObject introSceneReference;
+    
     [SerializeField] private GameObject scene1Reference;
     [SerializeField] private Flowchart scene1Flowchart;
     
     [SerializeField] private GameObject scene2Reference;
     [SerializeField] private Flowchart scene2Flowchart;
+
+    [SerializeField] private GameObject endSceneReference;
     
     private enum FullGameStates
     {
@@ -24,7 +30,8 @@ public class FullGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _fullGameStates = FullGameStates.Scene1;
+        _fullGameStates = FullGameStates.StartMenu;
+        
     }
 
     // Update is called once per frame
@@ -33,6 +40,11 @@ public class FullGameController : MonoBehaviour
         switch (_fullGameStates)
         {
             case FullGameStates.StartMenu:
+                if (introSceneReference.activeSelf == false)
+                {
+                    scene1Reference.SetActive(true);
+                    _fullGameStates = FullGameStates.Scene1;
+                }
                 break;
             
             case FullGameStates.Scene1:
@@ -48,6 +60,8 @@ public class FullGameController : MonoBehaviour
             case FullGameStates.Scene2:
                 if (scene2Reference.activeSelf == false)
                 {
+                    scene2Reference.SetActive(false);
+                    endSceneReference.SetActive(true);
                     _fullGameStates = FullGameStates.EndGame;
                 }
                 break;

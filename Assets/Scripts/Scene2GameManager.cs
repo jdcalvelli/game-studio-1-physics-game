@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Scene2GameManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource curtainAudio;
+    
     [SerializeField] private BladeController romeoSword;
     [SerializeField] private BladeController rosalindSword;
 
@@ -38,6 +40,8 @@ public class Scene2GameManager : MonoBehaviour
         {
             case Scene2States.CurtainAnimating:
                 curtainAnimator.SetTrigger("openCurtain");
+                curtainAudio.enabled = false;
+                curtainAudio.enabled = true;
                 flowchart.SendFungusMessage("startScene2");
                 scene2States = Scene2States.Fighting;
                 break;
