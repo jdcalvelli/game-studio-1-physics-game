@@ -219,6 +219,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 974162149}
     m_Modifications:
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7805f13ab6303451bbf5f30ab19de032, type: 3}
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639763559211298474, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 47
+      objectReference: {fileID: 0}
     - target: {fileID: 1681379316819545274, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: _duration.floatVal
       value: 1
@@ -515,6 +539,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8823379964646559035, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10980392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823379964646559035, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823379964646559035, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a609aa16c5bec44138024e65868310ff, type: 3}
     m_RemovedComponents:
     - {fileID: 3067273238354670865, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
     - {fileID: 7267187224283390511, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
@@ -938,7 +974,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &347869454
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -959,7 +995,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &347869455
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -980,7 +1016,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &347869456
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1881,6 +1917,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 621124729}
     m_Modifications:
+    - target: {fileID: 597150206, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7805f13ab6303451bbf5f30ab19de032, type: 3}
+    - target: {fileID: 597150206, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 597150206, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707029710, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a609aa16c5bec44138024e65868310ff, type: 3}
     - target: {fileID: 880838765156466570, guid: 4e9fee29bf7c74f97b8f6545fb0cf0c6, type: 3}
       propertyPath: nodeRect.width
       value: 106.724
@@ -3311,7 +3363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1419911300}
+  selectedFlowchart: {fileID: 347869396}
 --- !u!4 &1852182004
 Transform:
   m_ObjectHideFlags: 1

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a8920753c59884f34b977064af1d6bee
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - StempelGaramond
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7805f13ab6303451bbf5f30ab19de032, type: 3}
+  - {fileID: 12800000, guid: a609aa16c5bec44138024e65868310ff, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
