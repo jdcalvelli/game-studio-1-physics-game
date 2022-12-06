@@ -32,7 +32,10 @@ public class CallFungus : MonoBehaviour
     {
         if (ccs == canCollideStates.canCollide && collision.gameObject.name == "upperbody")
         {
-            Instantiate(firework, new Vector3(0, 1.1f, 4.3f), Quaternion.identity);
+            
+            // call create and destrooy confetti instead
+            StartCoroutine(CreateAndDestroyConfetti());
+            
             if (hitCount == 0){
                 //Debug.Log ("Head Hit");
                 myFlowchart.ExecuteBlock("1-5(J)");
@@ -62,5 +65,12 @@ public class CallFungus : MonoBehaviour
         Debug.Log(ccs);
     }
 
-    
+    private IEnumerator CreateAndDestroyConfetti()
+    {
+        GameObject confetti = Instantiate(firework, new Vector3(0, 1.1f, 4.3f), Quaternion.identity);
+        yield return new WaitForSeconds(2f);
+        Destroy(confetti);
+    }
+
+
 }
