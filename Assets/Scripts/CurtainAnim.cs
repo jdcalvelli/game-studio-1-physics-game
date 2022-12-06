@@ -32,6 +32,7 @@ public class CurtainAnim : MonoBehaviour
     private IEnumerator WaitForCurtainOpen()
     {
         yield return new WaitForSeconds(3f);
+        // this is for first scene
         cutsceneController.SendFungusMessage("cutsceneStart");
     }
 }

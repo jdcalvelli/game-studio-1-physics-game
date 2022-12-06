@@ -10,8 +10,12 @@ public class Scene2GameManager : MonoBehaviour
 
     [SerializeField] private Flowchart flowchart;
     [SerializeField] private SayDialog sayDialogReference;
+
+    [SerializeField] private Animator curtainAnimator;
+    
     private enum Scene2States
     {
+        CurtainAnimating,
         Fighting,
         Resolution,
         GameEnd,
@@ -22,7 +26,9 @@ public class Scene2GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scene2States = Scene2States.Fighting;
+        scene2States = Scene2States.CurtainAnimating;
+
+        //scene2States = Scene2States.Fighting;
     }
 
     // Update is called once per frame
@@ -30,6 +36,12 @@ public class Scene2GameManager : MonoBehaviour
     {
         switch (scene2States)
         {
+            case Scene2States.CurtainAnimating:
+                curtainAnimator.SetTrigger("openCurtain");
+                flowchart.SendFungusMessage("startScene2");
+                scene2States = Scene2States.Fighting;
+                break;
+            
             case Scene2States.Fighting:
                 if (romeoSword.enemyHitCounter > 2 && rosalindSword.enemyHitCounter > 3)
                 {
@@ -42,6 +54,13 @@ public class Scene2GameManager : MonoBehaviour
             case Scene2States.Resolution:
                 flowchart.SendFungusMessage("Ending");
                 scene2States = Scene2States.GameEnd;
+                break;
+            
+            case Scene2States.GameEnd:
+                if (!sayDialogReference.isActiveAndEnabled)
+                {
+                    curtainAnimator.SetTrigger("closeCurtain");
+                }
                 break;
         }
     }

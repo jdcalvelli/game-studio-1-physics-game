@@ -41,7 +41,7 @@ public class FingerViewMovement : MonoBehaviour
             }
             if (position0.y < 3.58)
             {
-            position0.y -= 0;
+                position0.y -= 0;
             }  
             GameObject.Find("ThumbView").transform.position = position0; 
         }
