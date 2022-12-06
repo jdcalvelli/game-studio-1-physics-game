@@ -11,18 +11,21 @@ public class HiltTriggerController : MonoBehaviour
     
     //THIS SHOULD BE REWRITTEN INTO A GAME MANAGER BUT NO TIME
     [SerializeField] private RosalindController rosalindControllerReference;
-    [SerializeField] private GameObject swordInHand;
+    [SerializeField] private GameObject romeoSword;
+    [SerializeField] private GameObject rosalindSword;
     private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col);
         if (col.gameObject.name == "TempSword")
         {
             col.gameObject.SetActive(false);
-            swordInHand.SetActive(true);
+            romeoSword.SetActive(true);
 
             StartCoroutine(ActivateRosalindController());
             
             flowchart.SendFungusMessage("PickedUpSword");
+            
+            StartCoroutine(ActivateTriggers());
         }
     }
     
@@ -30,5 +33,12 @@ public class HiltTriggerController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         rosalindControllerReference.enabled = true;
+    }
+
+    private IEnumerator ActivateTriggers()
+    {
+        yield return new WaitForSeconds(8f);
+        romeoSword.GetComponent<Collider2D>().isTrigger = true;
+        rosalindSword.GetComponent<Collider2D>().isTrigger = true;
     }
 }

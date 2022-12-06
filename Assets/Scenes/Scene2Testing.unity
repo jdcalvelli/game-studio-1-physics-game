@@ -205,7 +205,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &241003715 stripped
 Transform:
@@ -255,7 +255,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &593471591
 PrefabInstance:
@@ -272,13 +272,17 @@ PrefabInstance:
       propertyPath: swordString
       value: 
       objectReference: {fileID: 1919696514}
+    - target: {fileID: 1655922654, guid: e9c581b613f5945c88f427f59bfca5f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1927676363571517008, guid: e9c581b613f5945c88f427f59bfca5f1, type: 3}
       propertyPath: m_Name
       value: RosalindBody
       objectReference: {fileID: 0}
     - target: {fileID: 1927676363571517011, guid: e9c581b613f5945c88f427f59bfca5f1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1927676363571517011, guid: e9c581b613f5945c88f427f59bfca5f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -405,7 +409,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &624584288
 BoxCollider2D:
@@ -554,7 +558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5978416542989513306, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5978416542989513306, guid: 686bf443070f148598dd5a60ed2dcf2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -748,7 +752,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3870348726266321640, guid: abe260e2f4e764aa59245dc604e034b1, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3870348726266321640, guid: abe260e2f4e764aa59245dc604e034b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -841,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6884549877047685576, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6884549877047685576, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -935,7 +939,7 @@ PrefabInstance:
       objectReference: {fileID: 1688786599}
     - target: {fileID: 1885780565559703064, guid: 1382c9954b80c874d8f8e53b9f251d9d, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1885780565559703064, guid: 1382c9954b80c874d8f8e53b9f251d9d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1097,7 +1101,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.062194347, y: -1.4869204}
@@ -1164,6 +1168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c2c336828524c17bb51fa955d64506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swordWielder: romeo
   romeoBlade: {fileID: 1481222686}
   rosalindBlade: {fileID: 1655922655}
   flowchart: {fileID: 905134479}
@@ -1200,6 +1205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c2c336828524c17bb51fa955d64506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swordWielder: rosalind
   romeoBlade: {fileID: 1481222686}
   rosalindBlade: {fileID: 1655922655}
   flowchart: {fileID: 905134479}
@@ -1229,7 +1235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 905134479}
   rosalindControllerReference: {fileID: 801776569}
-  swordInHand: {fileID: 1481222683}
+  romeoSword: {fileID: 1481222683}
+  rosalindSword: {fileID: 895298323}
 --- !u!4 &1691861904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2354997214943814183, guid: 9c41a65fff5ea419394b774d502fcdef, type: 3}
@@ -1418,7 +1425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1745079851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1435,7 +1442,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1745079852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1452,7 +1459,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1745079853
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1469,7 +1476,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1745079854
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1486,7 +1493,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1745079855
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1582,7 +1589,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919696511
 GameObject:
@@ -1668,7 +1675,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!231 &1919696514
 SpringJoint2D:
@@ -1728,7 +1735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8775738347951061967, guid: 181b15b5e3ef0aa498bfba517e2abf0c, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8775738347951061967, guid: 181b15b5e3ef0aa498bfba517e2abf0c, type: 3}
       propertyPath: m_LocalPosition.x

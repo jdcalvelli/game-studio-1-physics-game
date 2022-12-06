@@ -7,6 +7,8 @@ using UnityEngine;
 public class BladeController : MonoBehaviour
 {
 
+
+    [SerializeField] private string swordWielder;
     [SerializeField] private Collider2D romeoBlade;
     [SerializeField] private Collider2D rosalindBlade;
 
@@ -27,12 +29,12 @@ public class BladeController : MonoBehaviour
             // bloodstain instantiation
             StartCoroutine(CreateAndDestroyBloodstain(bloodstainPrefabReference, col.transform));
             //play message
-            if (enemyHitCounter < 3)
+            if (enemyHitCounter < 2 && swordWielder == "romeo" || enemyHitCounter < 3 && swordWielder == "rosalind")
             {
                 flowchart.SendFungusMessage(fungusMessages[enemyHitCounter]);
-                enemyHitCounter++;
             }
-            // turn BOTH trigger off for a certain period of time basically after this
+            enemyHitCounter++;
+                // turn BOTH trigger off for a certain period of time basically after this
             StartCoroutine(BladeTriggersOff(romeoBlade, rosalindBlade));
         }
     }

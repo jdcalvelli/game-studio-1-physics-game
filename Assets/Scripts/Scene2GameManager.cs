@@ -31,7 +31,7 @@ public class Scene2GameManager : MonoBehaviour
         switch (scene2States)
         {
             case Scene2States.Fighting:
-                if (romeoSword.enemyHitCounter == 2 && rosalindSword.enemyHitCounter == 3)
+                if (romeoSword.enemyHitCounter > 2 && rosalindSword.enemyHitCounter > 3)
                 {
                     if (!sayDialogReference.isActiveAndEnabled)
                     {
