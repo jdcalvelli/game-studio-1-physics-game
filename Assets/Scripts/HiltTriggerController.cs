@@ -1,10 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Fungus;
 using UnityEngine;
 
 public class HiltTriggerController : MonoBehaviour
 {
+
+    [SerializeField] private Flowchart flowchart;
+    
     //THIS SHOULD BE REWRITTEN INTO A GAME MANAGER BUT NO TIME
     [SerializeField] private RosalindController rosalindControllerReference;
     [SerializeField] private GameObject swordInHand;
@@ -17,6 +21,8 @@ public class HiltTriggerController : MonoBehaviour
             swordInHand.SetActive(true);
 
             StartCoroutine(ActivateRosalindController());
+            
+            flowchart.SendFungusMessage("PickedUpSword");
         }
     }
     
