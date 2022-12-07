@@ -7,6 +7,7 @@ using UnityEngine;
 public class BladeController : MonoBehaviour
 {
 
+    [SerializeField] private AudioSource swordClash;
 
     [SerializeField] private string swordWielder;
     [SerializeField] private Collider2D romeoBlade;
@@ -36,6 +37,10 @@ public class BladeController : MonoBehaviour
             enemyHitCounter++;
                 // turn BOTH trigger off for a certain period of time basically after this
             StartCoroutine(BladeTriggersOff(romeoBlade, rosalindBlade));
+        }
+        else if (col.gameObject.name == "InHand")
+        {
+            swordClash.Play();
         }
     }
 

@@ -6,6 +6,8 @@ using Fungus;
 public class FullGameController : MonoBehaviour
 {
     [SerializeField] private AudioSource curtainAudio;
+
+    [SerializeField] private AudienceController audienceController;
     
     [SerializeField] private GameObject introSceneReference;
     
@@ -22,7 +24,8 @@ public class FullGameController : MonoBehaviour
         StartMenu,
         Scene1,
         Scene2,
-        EndGame
+        EndGame,
+        ActuallyEndGame,
     }
 
     private FullGameStates _fullGameStates;
@@ -67,6 +70,8 @@ public class FullGameController : MonoBehaviour
                 break;
             
             case FullGameStates.EndGame:
+                audienceController.MoveAudienceUp();
+                _fullGameStates =  FullGameStates.ActuallyEndGame;
                 break;
         }
     }

@@ -8,6 +8,8 @@ public class CallFungus : MonoBehaviour
     private float hitCount = 0;
     public GameObject firework;
 
+    public AudioSource headBonkSound;
+
     enum canCollideStates
     {
         canCollide,
@@ -32,6 +34,8 @@ public class CallFungus : MonoBehaviour
     {
         if (ccs == canCollideStates.canCollide && collision.gameObject.name == "upperbody")
         {
+            
+            headBonkSound.Play();
             
             // call create and destrooy confetti instead
             StartCoroutine(CreateAndDestroyConfetti());
