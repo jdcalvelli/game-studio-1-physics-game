@@ -67,9 +67,11 @@ public class CallFungus : MonoBehaviour
 
     private IEnumerator CreateAndDestroyConfetti()
     {
-        GameObject confetti = Instantiate(firework, new Vector3(0, 1.1f, 4.3f), Quaternion.identity);
-        yield return new WaitForSeconds(2f);
-        Destroy(confetti);
+        GameObject confetti1 = Instantiate(firework, new Vector3(-8.56f, 5.09f, 8.9f), Quaternion.identity);
+        GameObject confetti2 = Instantiate(firework, new Vector3(8.25f, 5.09f, 8.9f), Quaternion.identity);
+        yield return new WaitForSeconds(10f);
+        Destroy(confetti1);
+        Destroy(confetti2);
     }
 
 
